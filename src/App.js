@@ -6,13 +6,13 @@ import View from './view';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header/>
         <section className='container'>
           <div className='inner'>
             <Routes>
-                <Route basename={process.env.PUBLIC_URL} path='/' element={<List/>}/>
-                <Route basename={process.env.PUBLIC_URL} path='/view/:id' element={<View/>}/>
+                <Route path='/' element={<List/>}/>
+                <Route path='/view/:id' element={<View/>}/>
             </Routes>
           </div>
         </section>
