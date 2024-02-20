@@ -2,7 +2,7 @@
   "name": "practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanghyeonj.github.io/practice",
+  "homepage": "https://sanghyeonj.github.io/react-listPractice",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
